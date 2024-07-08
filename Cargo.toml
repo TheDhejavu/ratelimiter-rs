@@ -1,0 +1,10 @@
+[package]
+name = "ratelimiter-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+redis = "0.25.4"
+
+[dev-dependencies]
+testcontainers = { version =  "0.20.0", features = ["blocking"] }

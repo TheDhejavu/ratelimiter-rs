@@ -1,26 +1,3 @@
-# ratelimiter-rs
-A Rust implementation of Sliding Window Algorithm for distributed rate limiting.
-
->  ⚠️ this is an experiment 
-
-## Installation
-
-Add `ratelimiter-rs` to the `[dependencies]` section of your `Cargo.toml`:
-
-```toml
-...
-
-[dependencies]
-ratelimiter-rs = { git =  "https://github.com/TheDhejavu/ratelimiter-rs.git" }
-
-...
-```
-
-## Usage
-
-`src/main.rs`:
-
-```rust
 use ratelimiter_rs::RateLimiter;
 use std::{thread, time::Duration};
 
@@ -35,7 +12,3 @@ fn main() {
         println!("RequestType2 Allowed: {}", limiter.allowed(user_id, "type2").unwrap());
     }
 }
-```
-
-## References
-- [Frequency Capping](https://engineering.grab.com/frequency-capping)
