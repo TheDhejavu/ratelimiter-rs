@@ -4,7 +4,7 @@ A Rust implementation of Sliding Window Algorithm for distributed rate limiting.
 >  ⚠️ this is an experiment 
 
 
-![sliding window](https://github.com/TheDhejavu/ratelimiter-rs/blob/main/docs/sliding-window.png)
+![sliding window](https://github.com/TheDhejavu/ratelimiter-rs/blob/main/docs/window.png)
 
 
 ## Installation
